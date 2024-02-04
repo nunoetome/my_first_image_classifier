@@ -2,6 +2,8 @@ import streamlit as st
 from transformers import pipeline
 from PIL import Image
 
+
+
 MODEL_1 = "google/vit-base-patch16-224"
 MIN_ACEPTABLE_SCORE = 0.1
 MAX_N_LABELS = 5
